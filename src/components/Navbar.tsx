@@ -67,6 +67,15 @@ export const Navbar = () => {
             >
               For Sponsors
             </Button>
+            <Button
+              variant="secondary"
+              asChild
+              className="shadow-sm hover:shadow-glow"
+            >
+              <a href="https://cabana.exchange/token/2RDJ2BifKMPad67H7YfxM3JCVHPsjHeKpJGNwTxXpump?partner=realms" target="_blank" rel="noopener noreferrer">
+                Buy $SPARK
+              </a>
+            </Button>
             <Button onClick={() => scrollToSection("whitelist")} className="shadow-sm hover:shadow-glow">
               Join the Whitelist
             </Button>
@@ -102,6 +111,15 @@ export const Navbar = () => {
                 className="w-full"
               >
                 For Sponsors
+              </Button>
+              <Button
+                variant="secondary"
+                asChild
+                className="w-full"
+              >
+                <a href="https://cabana.exchange/token/2RDJ2BifKMPad67H7YfxM3JCVHPsjHeKpJGNwTxXpump?partner=realms" target="_blank" rel="noopener noreferrer">
+                  Buy $SPARK
+                </a>
               </Button>
               <Button onClick={() => scrollToSection("whitelist")} className="w-full">
                 Join the Whitelist

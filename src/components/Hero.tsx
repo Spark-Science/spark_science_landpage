@@ -61,6 +61,16 @@ export const Hero = () => {
             </Button>
             <Button
               size="lg"
+              variant="secondary"
+              asChild
+              className="text-base px-8 shadow-soft hover:shadow-glow"
+            >
+              <a href="https://cabana.exchange/token/2RDJ2BifKMPad67H7YfxM3JCVHPsjHeKpJGNwTxXpump?partner=realms" target="_blank" rel="noopener noreferrer">
+                Buy $SPARK
+              </a>
+            </Button>
+            <Button
+              size="lg"
               variant="outline"
               className="text-base px-8 border-2 hover:border-accent"
             >
